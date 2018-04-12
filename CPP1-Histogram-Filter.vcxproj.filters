@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="H">
+      <UniqueIdentifier>{30af3515-a87d-4017-b70e-c29c9f744e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPP">
+      <UniqueIdentifier>{0da95c6d-2707-4345-8f3d-2f5667f18618}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tests.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="simulate.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="localizer.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="helpers.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="debugging_helpers.cpp">
+      <Filter>CPP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>H</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers.h">
+      <Filter>H</Filter>
+    </ClInclude>
+    <ClInclude Include="debugging_helpers.h">
+      <Filter>H</Filter>
+    </ClInclude>
+    <ClInclude Include="simulate.h">
+      <Filter>H</Filter>
+    </ClInclude>
+    <ClInclude Include="localizer.h">
+      <Filter>H</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+#include "stdafx.h"
+#pragma once 
+using namespace std;
+
+class Simulation {
+	
+private:
+	vector <char> get_colors() ;
+
+public: 
+	vector < vector <char> > grid;
+	vector < vector <float> > beliefs;
+
+	float blur, p_hit, p_miss, incorrect_sense_prob;
+
+	int height, width, num_colors;
+	
+	std::vector<int> true_pose;
+	std::vector<int> prev_pose;
+
+	vector <char> colors;
+	Simulation(vector < vector<char> >, float, float, vector <int>);
+
+};
+
+
+
+
